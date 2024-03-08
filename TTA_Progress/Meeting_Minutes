@@ -11,3 +11,12 @@ Total meeting minutes: 120
 - During the last 60 minutes of the TTA, the team worked on cloning the Jarvis-on-Messenger github as a way to fork and later upload possible changes. The readme, TTA_Progress folder. and accompaning files were made.
 - The next sprint will be 2 weeks, it will run from 2/23/2024 - 03/08/2024. 
 Total meeting minutes: 300
+
+**Friday, March 8th, 2024**
+- Three members from our team met from 1pm - 4pm to install packages and run the code in PyCharm.
+- During the last 60 minutes of the TTA, the team worked on cloning the Jarvis-on-Messenger github as a way to fork and later upload possible changes. The readme, TTA_Progress folder. and accompaning files were made.
+Total meeting minutes: 240
+Problem: Requirements were outdated which made errors in running it in PyCharm.
+         - Implemented and replaced requirements with new version. Contributed, pulled, and updated repositories.
+Problem: Installing all the packages, cffi==1.15.1 unable to install. 
+Problem: Errors running code: 
