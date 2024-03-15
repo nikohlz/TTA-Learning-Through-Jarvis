@@ -12,6 +12,14 @@ Total meeting minutes: 120
 - The next sprint will be 2 weeks, it will run from 2/23/2024 - 03/08/2024. 
 Total meeting minutes: 300
 
+**Friday, March 8th, 2024**
+- Three members from our team met from 1pm - 4pm to install packages and run the code in PyCharm.
+- During the last 60 minutes of the TTA, the team worked on cloning the Jarvis-on-Messenger github as a way to fork and later upload possible changes. The readme, TTA_Progress folder. and accompaning files were made.
+Total meeting minutes: 240
+Problem: Requirements were outdated which made errors in running it in PyCharm.
+         - Implemented and replaced requirements with new version. Contributed, pulled, and updated repositories.
+Problem: Installing all the packages, cffi==1.15.1 unable to install. 
+Problem: Errors running code: 
 
 **Thursday, March 14th, 2024**
 @NIKOHLZ:
@@ -54,4 +62,3 @@ After analyzing the debugger's messages, I noticed that the root of the problem 
 
 Thoughts:
 I believe that you don't need it to mock test itself locally when it runs, but it is hard coded in its modules's __init__.py file under the process_query function. Maybe this is something I can look into, but I think that maybe this exists to be the skeleton for the process_query function that will be used to run/process results from other queries in the modules directory.
-
