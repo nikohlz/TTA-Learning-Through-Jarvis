@@ -6,8 +6,8 @@ import keen
 import requests
 
 import config
-from modules import src
-from src import *
+from modules import *
+
 from templates.quick_replies import add_quick_reply
 from templates.text import TextTemplate
 
