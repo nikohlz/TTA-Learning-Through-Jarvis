@@ -62,3 +62,6 @@ After analyzing the debugger's messages, I noticed that the root of the problem 
 
 Thoughts:
 I believe that you don't need it to mock test itself locally when it runs, but it is hard coded in its modules's __init__.py file under the process_query function. Maybe this is something I can look into, but I think that maybe this exists to be the skeleton for the process_query function that will be used to run/process results from other queries in the modules directory.
+
+
+***add inclass notes
