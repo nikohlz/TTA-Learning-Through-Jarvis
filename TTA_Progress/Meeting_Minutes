@@ -11,3 +11,32 @@ Total meeting minutes: 120
 - During the last 60 minutes of the TTA, the team worked on cloning the Jarvis-on-Messenger github as a way to fork and later upload possible changes. The readme, TTA_Progress folder. and accompaning files were made.
 - The next sprint will be 2 weeks, it will run from 2/23/2024 - 03/08/2024. 
 Total meeting minutes: 300
+
+
+**Thursday, March 14th, 2024**
+Today I tried opening jarvis after updating the Requirement.txt because I noticed that a variety of different packages were outdated.
+Since last Friday, we compared the packages from the forked Jarvis-on-messenger repository with updated ones from a pull request on the original
+Jarvis-on-messenger repository from user/Swapagerwal. 
+These new requirements work better and install onto our local pycharm ide.
+
+PROBLEM:
+After failing to run the "python Jarvis.py" command in the pycharm terminal, I analyzed the error messages, 
+"Traceback (most recent call last):
+  File "C:\Users\nfuen034\PycharmProjects\TTA-Learning-Through-Jarvis\jarvis.py", line 8, in <module>
+    import modules
+  File "C:\Users\nfuen034\PycharmProjects\TTA-Learning-Through-Jarvis\modules\__init__.py", line 10, in <module>
+    from src import *
+ModuleNotFoundError: No module named 'src'         "
+
+SOLUTION:
+The modules directory in this project/repository does in fact include a src directory that holds python files with the names of the possible
+queries to use with the application.
+  - My fix was to change the code in the "__init__.py" file that is inside the modules directory. The original said "import modules" (line 9)
+and "from src import *" (line 10), but I felt that line 9 was the problem because \modules's import clearly wasn't accounting for src. I made
+the following change: remove both lines 9 & 10, add at line 9 "from modules import *"
+
+This allowed me to run the "python jarvis.py" command successfully, and it worked to show me the hello page on a local host page!
+
+
+
+
