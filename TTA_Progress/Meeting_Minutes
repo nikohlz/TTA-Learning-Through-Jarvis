@@ -36,7 +36,7 @@ and "from src import *" (line 10), but I felt that line 9 was the problem becaus
 the following change: remove both lines 9 & 10, add at line 9 "from modules import *"
 
 This allowed me to run the "python jarvis.py" command successfully, and it worked to show me the hello page on a local host page!
-
-
+Tomorrow I plan to get one of the modules to run successfully so i can see how a user can interact with jarvis,
+and after accomplishing that, my team can start creating the "teach" module to see if we can allow a user to learn basic python facts/syntax/methods. 
 
 
