@@ -1,12 +1,11 @@
+from modules import *
 import json
 import os
 import sys
 
 import keen
 import requests
-
 import config
-from modules import *
 
 from templates.quick_replies import add_quick_reply
 from templates.text import TextTemplate
